@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+markdown
+Copy code
+# Proje Adı
 
-First, run the development server:
+Bu proje, Next.js kullanılarak geliştirilmiş bir dashboard uygulamasını içermektedir.
+
+## Başlangıç
+
+Proje dosyalarınızı bilgisayarınıza klonlayın.
 
 ```bash
+git clone https://github.com/ertugrulbadem/nextjsdashboard.git
+cd projeadi
+Gerekli bağımlılıkları yükleyin.
+
+bash
+Copy code
+npm install
+Projenizi ayağa kaldırın.
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Tarayıcınızdan http://localhost:3000 adresine giderek projenizi görüntüleyebilirsiniz.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Kullanılan Teknolojiler
+Next.js
+React
+React DOM
+Recharts
+React Icons
+Proje Yapısı
+Proje dosya yapısı şu şekildedir:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Copy code
+projeadi/
+  ├── components/
+  ├── pages/
+  ├── styles/
+  ├── public/
+  ├── README.md
+  └── ...
+components/: React bileşenlerinizi içerir.
+pages/: Next.js sayfa dosyalarını içerir.
+styles/: Proje stil dosyalarını içerir.
+public/: Statik dosyaları içerir.
+Katkıda Bulunma
+Eğer projeye katkıda bulunmak istiyorsanız, lütfen Katkıda Bulunma Rehberine göz atın.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Lisans
+Bu proje MIT lisansı altında lisanslanmıştır.
 
-## Learn More
+css
+Copy code
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Bu sade bir örnek olup, projenizin gereksinimlerine ve yapısına göre özelleştirebilirsiniz. Ayrıca, projenizin özel gereksinimlerini ve nasıl çalıştırılacağını içeren daha fazla bilgi eklemeyi unutmayın.
