@@ -1,6 +1,3 @@
-
-markdown
-Copy code
 # Proje Adı
 
 Bu proje, Next.js kullanılarak geliştirilmiş bir dashboard uygulamasını içermektedir.
